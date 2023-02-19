@@ -1,0 +1,42 @@
+.list-group li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.list-group li::before {
+    content: '✓';
+    color: darkblue;
+    background-color: #add8e641;
+    border-radius: 50px;
+    padding: 0 5px;
+}
+
+.wedding-plus li::before {
+    content: '✓';
+    color: #FFFFFF;
+}
+
+.package-btn {
+    background-color: #ffb6c138;
+    padding: 5px 50px;
+    border-radius: 20px;
+}
+
+.package-btn:hover {
+    background-color: #ffb6c156;
+}
+
+footer {
+    padding: 40px;
+    background-color: #141414;
+}
+
+.apple {
+    border: 1px solid #FFFFFF;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+
+.apple:hover {
+    cursor: pointer;
+}
